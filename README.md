@@ -2,22 +2,6 @@
 
 Forensic Hash Tool, adli bilişim incelemelerinde delil dosyalarının bütünlüğünü güvenilir biçimde doğrulamak için geliştirilmiş hafif bir Python CLI aracıdır.
 
-## Görseller
-
-Proje için rapor, CLI ve doğrulama ekran görüntüleri eklemek isterseniz, bu alanı kullanabilirsiniz.
-
-- `docs/screenshots/cli.png` — Komut satırı kullanım örneği
-- `docs/screenshots/report.png` — PDF veya metin raporu örneği
-- `docs/screenshots/verify.png` — Baseline doğrulama ekranı
-
-```md
-![CLI Kullanımı](docs/screenshots/cli.png)
-
-![Rapor Örneği](docs/screenshots/report.png)
-```
-
-> Bu dosyaları ekledikten sonra buradaki bağlantıları güncelleyebilirsin.
-
 ## Neden bu araç?
 
 - Dosyalarınızın hash değerlerini tek seferde birden fazla algoritmayla hesaplar.
@@ -91,7 +75,7 @@ python forensic_hash.py <target> [-r] [-a ALGORITHMS] [-o OUTPUT] [-e EXAMINER] 
 ```
 
 ### Parametreler
-
+![CLI Kullanımı](docs/img1.png)
 - `target`: Taranacak dosya veya klasör yolu (zorunlu)
 - `-r`, `--recursive`: Hedef bir klasör ise alt dizinleri de tarar
 - `-a`, `--algorithms`: Hesaplanacak hash algoritmaları. Örnek: `md5 sha1` veya `md5,sha1`
