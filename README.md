@@ -37,7 +37,7 @@ python forensic_hash.py [TARGET_DIRECTORY] -r -a md5,sha256 -o report.pdf
 ### Sadece tek dosya tarama
 
 ```bash
-python forensic_hash.py [TARGET FILE] -a sha512 -o report.txt
+python forensic_hash.py [TARGET_DIRECTORY/FILE] -a sha512 -o report.txt
 ```
 
 ### Baseline oluşturma
@@ -55,7 +55,7 @@ python forensic_hash.py [TARGET_DIRECTORY] -r -a md5 -v baseline.json -o verify_
 ### İnceleyen bilgisi ekleme (opsiyonel)
 
 ```bash
-python forensic_hash.py [TARGET_DIRECTORY] -a md5 -e wolkansec -o report.txt
+python forensic_hash.py [TARGET_DIRECTORY/FILE] -a md5 -e wolkansec -o report.txt
 ```
 
 ## Kullanım
@@ -97,8 +97,8 @@ Doğrulama raporu üretildiğinde baseline dosyası başarılı bir şekilde gü
 ## Örnek Komutlar
 
 ```bash
-python forensic_hash.py . -a md5 -o report.txt
-python forensic_hash.py . -a sha256,sha512 -o hashes.csv
-python forensic_hash.py . -r -a sha256 -v baseline.json -o verify_report.pdf
-python forensic_hash.py . -a md5 -e "wolkansec" -o report.pdf
+python forensic_hash.py [TARGET_DIRECTORY/FILE] -a md5 -o report.txt
+python forensic_hash.py [TARGET_DIRECTORY/FILE] -a sha256,sha512 -o hashes.csv
+python forensic_hash.py [TARGET_DIRECTORY] -r -a sha256 -v baseline.json -o verify_report.pdf
+python forensic_hash.py [TARGET_DIRECTORY/FILE] -a md5 -e "Volkan ÖZDEMİR" -o report.pdf
 ```
