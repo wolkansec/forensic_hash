@@ -76,7 +76,6 @@ python forensic_hash.py <target> [-r] [-a ALGORITHMS] [-o OUTPUT] [-e EXAMINER] 
 
 ## Rapor Formatları
 ![PDF Rapor Formatı](docs/img2.png)
-![PDF Verify Komutu](docs/img3.png)
 ![PDF Verify Rapor Formatı](docs/img4.png)
 - `.txt`  : Okunabilir metin raporu
 - `.json` : Yapılandırılmış JSON raporu
