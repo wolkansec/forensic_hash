@@ -95,11 +95,6 @@ python forensic_hash.py <target> [-r] [-a ALGORITHMS] [-o OUTPUT] [-e EXAMINER] 
 
 Doğrulama raporu üretildiğinde baseline dosyası başarılı bir şekilde güncellenir ve eski baseline dosyası yedeklenir.
 
-## Output Klasörü
-
-- `-o report.txt` veya `-o report.pdf` gibi çıktılar, proje içinde otomatik oluşturulan `output/` klasörüne yazılır.
-- Bu sayede çalışma dizini temiz kalır ve tüm raporlar tek yerde toplanır.
-
 ## Örnek Komutlar
 
 ```bash
