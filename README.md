@@ -43,7 +43,7 @@ python forensic_hash.py [TARGET_DIRECTORY/FILE] -a sha512 -o report.txt
 ### Baseline oluşturma
 
 ```bash
-python forensic_hash.py [TARGET_DIRECTORY] -r -a sha256 -o baseline.json
+python forensic_hash.py [TARGET_DIRECTORY] -r -a sha256,md5 -o baseline.json
 ```
 
 ### Baseline doğrulama ve rapor üretme
