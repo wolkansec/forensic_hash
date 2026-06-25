@@ -98,7 +98,7 @@ Doğrulama raporu üretildiğinde baseline dosyası başarılı bir şekilde gü
 
 ```bash
 python forensic_hash.py [TARGET_DIRECTORY/FILE] -a md5 -o report.txt
-python forensic_hash.py [TARGET_DIRECTORY/FILE] -a sha256,sha512 -o hashes.csv
+python forensic_hash.py [TARGET_DIRECTORY/FILE] -a sha256,sha512,md5 -o hashes.csv
 python forensic_hash.py [TARGET_DIRECTORY] -r -a sha256 -v baseline.json -o verify_report.pdf
 python forensic_hash.py [TARGET_DIRECTORY/FILE] -a md5 -e "Volkan ÖZDEMİR" -o report.pdf
 ```
